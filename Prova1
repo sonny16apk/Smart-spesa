@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartSpesa - Personal Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen p-4 max-w-md mx-auto">
+
+    <!-- Header -->
+    <header class="flex justify-between items-center py-4 border-b border-slate-800 mb-6">
+        <h1 class="text-xl font-bold text-indigo-400 flex items-center gap-2">
+            <i class="fa-solid fa-basket-shopping"></i> SmartSpesa
+        </h1>
+        <span class="text-xs bg-indigo-950 text-indigo-300 border border-indigo-800 px-2 py-1 rounded-md">v1.0 Local</span>
+    </header>
+
+    <!-- Inserimento Prodotto -->
+    <section class="bg-slate-800 p-4 rounded-xl mb-6 shadow-lg border border-slate-700">
+        <h2 class="text-sm font-semibold mb-3 text-slate-300">Aggiungi Prodotto</h2>
+        <form id="itemForm" class="space-y-3">
+            <input type="text" id="itemName"
